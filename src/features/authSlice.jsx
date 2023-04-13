@@ -11,7 +11,7 @@ const authSlice=createSlice({
         setUser:(state,{payload})=>{
             state.user=payload
         },
-        clearUser:()=>{
+        clearUser:(state)=>{
             state.user=null
         }
     }

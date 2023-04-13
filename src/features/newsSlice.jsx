@@ -10,7 +10,7 @@ const newsSlice = createSlice({
   name: "news",
   initialState,
   reducers: {
-    clearNewsList:()=>{
+    clearNewsList:(state)=>{
         state.newsList=[]
     }
   }
